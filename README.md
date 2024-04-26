@@ -1,6 +1,7 @@
 Hämta alla personer i systemet
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/f529b121-3931-49df-bad4-8285b88dd6c6)
-Response body: 
+Response body:
+```json
 [
   {
     "peopleId": 1,
@@ -78,10 +79,11 @@ Response body:
     ]
   }
 ]
-
+```
 Hämta alla intressen som är kopplade till en specifik person och hämta alla länkar som är kopplade till en specifik person
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/06e9e1ea-904f-4397-b34d-5370256fa87f)
 Response body:
+```json
 {
   "peopleId": 1,
   "peopleName": "Felicia",
@@ -123,11 +125,12 @@ Response body:
     }
   ]
 }
-
+```
 Koppla en person till ett nytt intresse
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/0e3d083e-6800-4e69-96fb-d612d82e1aaf)
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/46e1d74e-574a-4bb6-a68e-9adbfaa0a552)
 Response body:
+```json
 {
   "id": 22,
   "links": null,
@@ -152,15 +155,17 @@ Response body:
     ]
   }
 }
-
-
+```
 Lägga in nya länkar för en specifik person och ett specifikt intresse
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/caa5b5a4-ed16-4377-be7b-89f555322a0e)
 Response body:
+```json
 "clasohlson.com"
+```
 Här ser man även att länken är tillagd:
 ![image](https://github.com/feliciamuller/HobbiesAPI/assets/144246541/d28cc974-ed34-4919-9be3-3c064efd21ad)
 Response body:
+```json
 {
   "peopleId": 4,
   "peopleName": "Sofie",
@@ -200,3 +205,4 @@ Response body:
     }
   ]
 }
+```
